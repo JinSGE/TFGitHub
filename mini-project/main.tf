@@ -169,7 +169,6 @@ resource "aws_instance" "myEC2" {
       identityfile = "~/.ssh/mykeypair"
     })
     interpreter    = ["bash", "-c"]
-    # interpreter  = ["Powershell", "-Command"]
   }
 
   tags = {
